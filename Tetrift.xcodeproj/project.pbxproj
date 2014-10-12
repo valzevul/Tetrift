@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82038EA419EA69C500541C11 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EA319EA69C500541C11 /* Shape.swift */; };
 		8271F8F319EA5480004832DB /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8271F8EE19EA5480004832DB /* bomb.mp3 */; };
 		8271F8F419EA5480004832DB /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8271F8EF19EA5480004832DB /* drop.mp3 */; };
 		8271F8F519EA5480004832DB /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8271F8F019EA5480004832DB /* gameover.mp3 */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82038EA319EA69C500541C11 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		8271F8EE19EA5480004832DB /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
 		8271F8EF19EA5480004832DB /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
 		8271F8F019EA5480004832DB /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				82BAC52819EA5183008BE656 /* AppDelegate.swift */,
 				82BAC52C19EA5183008BE656 /* GameScene.swift */,
 				8271F90A19EA624D004832DB /* Block.swift */,
+				82038EA319EA69C500541C11 /* Shape.swift */,
 				82BAC52E19EA5183008BE656 /* GameViewController.swift */,
 				82BAC53019EA5183008BE656 /* Main.storyboard */,
 				82BAC53519EA5183008BE656 /* LaunchScreen.xib */,
@@ -278,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BAC52D19EA5183008BE656 /* GameScene.swift in Sources */,
+				82038EA419EA69C500541C11 /* Shape.swift in Sources */,
 				8271F90919EA595A004832DB /* Array2D.swift in Sources */,
 				8271F90B19EA624D004832DB /* Block.swift in Sources */,
 				82BAC52F19EA5183008BE656 /* GameViewController.swift in Sources */,
