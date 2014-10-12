@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Tetrift.BlockColor.random (Tetrift.BlockColor.Type)() -&gt; Tetrift.BlockColor:Block.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "BlockColor.fromRaw(3)">
+            </PersistentString>
+            <PersistentString
+               value = "NumberOfColors">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
