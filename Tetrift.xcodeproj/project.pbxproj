@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		82BAC52919EA5183008BE656 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC52819EA5183008BE656 /* AppDelegate.swift */; };
-		82BAC52B19EA5183008BE656 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC52A19EA5183008BE656 /* GameScene.sks */; };
 		82BAC52D19EA5183008BE656 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC52C19EA5183008BE656 /* GameScene.swift */; };
 		82BAC52F19EA5183008BE656 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC52E19EA5183008BE656 /* GameViewController.swift */; };
 		82BAC53219EA5183008BE656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC53019EA5183008BE656 /* Main.storyboard */; };
-		82BAC53419EA5183008BE656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC53319EA5183008BE656 /* Images.xcassets */; };
 		82BAC53719EA5183008BE656 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BAC53519EA5183008BE656 /* LaunchScreen.xib */; };
 		82BAC54319EA5184008BE656 /* TetriftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82BAC54219EA5184008BE656 /* TetriftTests.swift */; };
 /* End PBXBuildFile section */
@@ -31,11 +29,9 @@
 		82BAC52319EA5183008BE656 /* Tetrift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetrift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BAC52719EA5183008BE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82BAC52819EA5183008BE656 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		82BAC52A19EA5183008BE656 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		82BAC52C19EA5183008BE656 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		82BAC52E19EA5183008BE656 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		82BAC53119EA5183008BE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82BAC53319EA5183008BE656 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		82BAC53619EA5183008BE656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		82BAC53C19EA5184008BE656 /* TetriftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetriftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		82BAC54119EA5184008BE656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,11 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				82BAC52819EA5183008BE656 /* AppDelegate.swift */,
-				82BAC52A19EA5183008BE656 /* GameScene.sks */,
 				82BAC52C19EA5183008BE656 /* GameScene.swift */,
 				82BAC52E19EA5183008BE656 /* GameViewController.swift */,
 				82BAC53019EA5183008BE656 /* Main.storyboard */,
-				82BAC53319EA5183008BE656 /* Images.xcassets */,
 				82BAC53519EA5183008BE656 /* LaunchScreen.xib */,
 				82BAC52619EA5183008BE656 /* Supporting Files */,
 			);
@@ -199,8 +193,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				82BAC53719EA5183008BE656 /* LaunchScreen.xib in Resources */,
-				82BAC53419EA5183008BE656 /* Images.xcassets in Resources */,
-				82BAC52B19EA5183008BE656 /* GameScene.sks in Resources */,
 				82BAC53219EA5183008BE656 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,6 +405,7 @@
 				82BAC54819EA5184008BE656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82BAC54919EA5184008BE656 /* Build configuration list for PBXNativeTarget "TetriftTests" */ = {
 			isa = XCConfigurationList;
@@ -421,6 +414,7 @@
 				82BAC54B19EA5184008BE656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
