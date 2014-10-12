@@ -8,10 +8,10 @@
 
 import SpriteKit
 
-let NumberOfColors: UInt32 = 5
+let NumberOfColors: UInt32 = 6
 
 enum BlockColor: Int, Printable {
-    case Blue = 0, Orange, Purple, Teal, Yellow
+    case Blue = 0, Orange, Purple, Teal, Yellow, Red
     
     var spriteName: String {
         switch self {
@@ -25,6 +25,8 @@ enum BlockColor: Int, Printable {
             return "teal"
         case .Yellow:
             return "yellow"
+        case .Red:
+            return "red"
         }
     }
     
