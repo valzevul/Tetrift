@@ -161,37 +161,12 @@ class Shape: Hashable, Printable {
             return SShape(column: startingColumn, row: startingRow)
         case 6:
             return ZShape(column: startingColumn, row: startingRow)
+        default:
+            return ZShape(column: startingColumn, row: startingRow)
         }
     }
 }
 
 func ==(lhs: Shape, rhs: Shape) -> Bool {
     return lhs.row == rhs.row && lhs.column == rhs.column
-}
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
