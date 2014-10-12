@@ -8,7 +8,7 @@
 
 import SpriteKit
 
-let NumberOfColors: UInt32 = 6
+let NumberOfColors: UInt32 = 5
 
 enum BlockColor: Int, Printable {
     case Blue = 0, Orange, Purple, Teal, Yellow
