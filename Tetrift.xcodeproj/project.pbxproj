@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		82038EA419EA69C500541C11 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EA319EA69C500541C11 /* Shape.swift */; };
+		82038EA619EA72D100541C11 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EA519EA72D100541C11 /* SquareShape.swift */; };
+		82038EAB19EA7B3B00541C11 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EAA19EA7B3B00541C11 /* TShape.swift */; };
+		82038EAD19EA7B6C00541C11 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EAC19EA7B6C00541C11 /* LineShape.swift */; };
+		82038EAF19EA7B8A00541C11 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EAE19EA7B8A00541C11 /* LShape.swift */; };
+		82038EB119EA7BA700541C11 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EB019EA7BA700541C11 /* JShape.swift */; };
+		82038EB319EA7BC300541C11 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EB219EA7BC300541C11 /* SShape.swift */; };
+		82038EB519EA7BE200541C11 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82038EB419EA7BE200541C11 /* ZShape.swift */; };
 		8271F8F319EA5480004832DB /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8271F8EE19EA5480004832DB /* bomb.mp3 */; };
 		8271F8F419EA5480004832DB /* drop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8271F8EF19EA5480004832DB /* drop.mp3 */; };
 		8271F8F519EA5480004832DB /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8271F8F019EA5480004832DB /* gameover.mp3 */; };
@@ -43,6 +50,13 @@
 
 /* Begin PBXFileReference section */
 		82038EA319EA69C500541C11 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		82038EA519EA72D100541C11 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
+		82038EAA19EA7B3B00541C11 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		82038EAC19EA7B6C00541C11 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		82038EAE19EA7B8A00541C11 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		82038EB019EA7BA700541C11 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		82038EB219EA7BC300541C11 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		82038EB419EA7BE200541C11 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
 		8271F8EE19EA5480004832DB /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
 		8271F8EF19EA5480004832DB /* drop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drop.mp3; sourceTree = "<group>"; };
 		8271F8F019EA5480004832DB /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
@@ -88,6 +102,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82038EA719EA744D00541C11 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				82038EA519EA72D100541C11 /* SquareShape.swift */,
+				82038EAA19EA7B3B00541C11 /* TShape.swift */,
+				82038EAC19EA7B6C00541C11 /* LineShape.swift */,
+				82038EAE19EA7B8A00541C11 /* LShape.swift */,
+				82038EB019EA7BA700541C11 /* JShape.swift */,
+				82038EB219EA7BC300541C11 /* SShape.swift */,
+				82038EB419EA7BE200541C11 /* ZShape.swift */,
+				82038EA319EA69C500541C11 /* Shape.swift */,
+			);
+			name = Shapes;
+			sourceTree = "<group>";
+		};
+		82038EA819EA746200541C11 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8271F90A19EA624D004832DB /* Block.swift */,
+				8271F90819EA595A004832DB /* Array2D.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		82038EA919EA747400541C11 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82BAC52819EA5183008BE656 /* AppDelegate.swift */,
+				82BAC52C19EA5183008BE656 /* GameScene.swift */,
+				82BAC52E19EA5183008BE656 /* GameViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		8271F8ED19EA5480004832DB /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,17 +170,14 @@
 			isa = PBXGroup;
 			children = (
 				8271F90619EA5509004832DB /* Images.xcassets */,
-				82BAC52819EA5183008BE656 /* AppDelegate.swift */,
-				82BAC52C19EA5183008BE656 /* GameScene.swift */,
-				8271F90A19EA624D004832DB /* Block.swift */,
-				82038EA319EA69C500541C11 /* Shape.swift */,
-				82BAC52E19EA5183008BE656 /* GameViewController.swift */,
+				82038EA919EA747400541C11 /* Controllers */,
+				82038EA819EA746200541C11 /* Helpers */,
+				82038EA719EA744D00541C11 /* Shapes */,
 				82BAC53019EA5183008BE656 /* Main.storyboard */,
 				82BAC53519EA5183008BE656 /* LaunchScreen.xib */,
 				8271F8F819EA54A1004832DB /* Sprites.atlas */,
 				8271F8ED19EA5480004832DB /* Sounds */,
 				82BAC52619EA5183008BE656 /* Supporting Files */,
-				8271F90819EA595A004832DB /* Array2D.swift */,
 			);
 			path = Tetrift;
 			sourceTree = "<group>";
@@ -280,11 +325,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82038EAF19EA7B8A00541C11 /* LShape.swift in Sources */,
+				82038EA619EA72D100541C11 /* SquareShape.swift in Sources */,
 				82BAC52D19EA5183008BE656 /* GameScene.swift in Sources */,
+				82038EB119EA7BA700541C11 /* JShape.swift in Sources */,
 				82038EA419EA69C500541C11 /* Shape.swift in Sources */,
 				8271F90919EA595A004832DB /* Array2D.swift in Sources */,
+				82038EAD19EA7B6C00541C11 /* LineShape.swift in Sources */,
+				82038EB319EA7BC300541C11 /* SShape.swift in Sources */,
+				82038EAB19EA7B3B00541C11 /* TShape.swift in Sources */,
 				8271F90B19EA624D004832DB /* Block.swift in Sources */,
 				82BAC52F19EA5183008BE656 /* GameViewController.swift in Sources */,
+				82038EB519EA7BE200541C11 /* ZShape.swift in Sources */,
 				82BAC52919EA5183008BE656 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
